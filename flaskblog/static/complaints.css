@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-complaint{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+#com{
+    border: 1px solid black;
+    outline: none;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+}
+
+input{
+    width: 95%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+}
+select{
+    width: 95%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+}
